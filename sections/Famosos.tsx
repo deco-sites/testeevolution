@@ -6,8 +6,6 @@ import ButtonSeta from "../components/ButtonSeta/ButtonSeta.tsx";
 const famoso =
   "https://evolutionnutritionlab.com.br/media/influencers/Inlfu_DedeSecco.jpg";
 
-const seta = "https://cdn-icons-png.flaticon.com/512/2223/2223615.png";
-
 export default function Famosos() {
   return (
     <section class={"p-14"}>
