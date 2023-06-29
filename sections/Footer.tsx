@@ -37,6 +37,7 @@ export default function Footer({ telefone, email }: Props) {
             lg: justify-between
             lg:text-left
             lg:h-96
+            lg:items-start
         ">
         <div>
           <h3 class="font-bold text-2xl">Institucional</h3>
@@ -78,8 +79,7 @@ export default function Footer({ telefone, email }: Props) {
                 w-full
                 items-center
                 text-center 
-                space-y-4   
-                lg:text-left        
+                space-y-4          
             ">
         <p>
           Os preços, promoções, condições de pagamento, frete e estoque são
@@ -89,16 +89,13 @@ export default function Footer({ telefone, email }: Props) {
         </p>
         <hr></hr>
         <div class=" 
+        w-full
         flex 
         flex-col
         p-8 
         space-y-6 
-<<<<<<< HEAD
         md:flex-row md:items-center md:space-x-4
-=======
-        md:flex-row md:items-center 
->>>>>>> ac4c71cdd027a2b1a1e79ba539cd85437735c38b
-        lg:items-start ">
+        lg:items-center lg:justify-between lg:text-left">
           <p>
             Rua José Bernardo Pinto, 285 - Vila Guilherme CEP 02055-000 - CNPJ:
             10.284.393/0001-66
