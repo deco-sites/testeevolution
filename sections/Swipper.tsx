@@ -1,5 +1,9 @@
 import { CardSwipper } from "../components/CardSwipper/CardSwipper.tsx";
 
+export interface Props {
+  title?: string;
+}
+
 const imgBanner18 =
   "https://evolutionnutritionlab.com.br/media/wysiwyg/MicrosoftTeams-image_18_.png";
 
@@ -15,7 +19,7 @@ const salesImg =
 const creditImg =
   "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-parcelas_2x_branco.png";
 
-export default function Swipper() {
+export default function Swipper(props: Props) {
   return (
     <section class={"mt-28"}>
       <div>
