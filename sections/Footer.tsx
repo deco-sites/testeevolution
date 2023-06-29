@@ -93,7 +93,11 @@ export default function Footer({ telefone, email }: Props) {
         flex-col
         p-8 
         space-y-6 
+<<<<<<< HEAD
         md:flex-row md:items-center md:space-x-4
+=======
+        md:flex-row md:items-center 
+>>>>>>> ac4c71cdd027a2b1a1e79ba539cd85437735c38b
         lg:items-start ">
           <p>
             Rua José Bernardo Pinto, 285 - Vila Guilherme CEP 02055-000 - CNPJ:
