@@ -1,12 +1,13 @@
-interface CardFamososProps {
+export interface CardFamososProps {
   src: string;
   nome: string;
   insta: string;
 }
-const instaIcon = "https://cdn-icons-png.flaticon.com/512/1936/1936319.png";
-const faceIcon = "https://cdn-icons-png.flaticon.com/512/20/20673.png";
 
-export function CardFamosos({ src, nome, insta }: CardFamososProps) {
+export default function CardFamosos({ src, nome, insta }: CardFamososProps) {
+  const instaIcon = "https://cdn-icons-png.flaticon.com/512/1936/1936319.png";
+  const faceIcon = "https://cdn-icons-png.flaticon.com/512/20/20673.png";
+
   return (
     <div class={"w-60 bg-yellow-300 relative"}>
       <img class={"w-full"} src={src} />

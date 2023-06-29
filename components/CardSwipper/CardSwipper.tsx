@@ -1,9 +1,9 @@
-interface CardSwipperProps {
+export interface CardSwipperProps {
   src: string;
   textBold: string;
   textNormal: string;
 }
-export function CardSwipper(
+export default function CardSwipper(
   { src, textBold, textNormal }: CardSwipperProps,
 ) {
   return (

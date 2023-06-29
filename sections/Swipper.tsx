@@ -1,25 +1,25 @@
-import { CardSwipper } from "../components/CardSwipper/CardSwipper.tsx";
+import CardSwipper from "../components/CardSwipper/CardSwipper.tsx";
 
 export interface Props {
   title?: string;
 }
 
-const imgBanner18 =
-  "https://evolutionnutritionlab.com.br/media/wysiwyg/MicrosoftTeams-image_18_.png";
-
-const imgBanner15 =
-  "https://evolutionnutritionlab.com.br/media/wysiwyg/MicrosoftTeams-image_15_.png";
-
-const trustImg =
-  "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-selo_2x_branco.png";
-
-const salesImg =
-  "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-produtos_2x_branco.png";
-
-const creditImg =
-  "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-parcelas_2x_branco.png";
-
 export default function Swipper(props: Props) {
+  const imgBanner18 =
+    "https://evolutionnutritionlab.com.br/media/wysiwyg/MicrosoftTeams-image_18_.png";
+
+  const imgBanner15 =
+    "https://evolutionnutritionlab.com.br/media/wysiwyg/MicrosoftTeams-image_15_.png";
+
+  const trustImg =
+    "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-selo_2x_branco.png";
+
+  const salesImg =
+    "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-produtos_2x_branco.png";
+
+  const creditImg =
+    "https://evolutionnutritionlab.com.br/media/wysiwyg/home/regua-parcelas_2x_branco.png";
+
   return (
     <section class={"mt-28"}>
       <div>

@@ -1,4 +1,4 @@
-interface ComponentNameProps {
+export interface ComponentNameProps {
   title: string;
   subTitle?: string;
 }
