@@ -33,6 +33,7 @@ export default function Footer({ telefone, email }: Props) {
             items-center
             text-center
             space-y-4
+            uppercase
             lg:flex-row
             lg: justify-between
             lg:text-left
