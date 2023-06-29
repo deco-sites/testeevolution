@@ -9,10 +9,11 @@ import * as $$$$0 from "./routes/_app.tsx";
 import * as $$$$1 from "./routes/styles.css.ts";
 import * as $$$$$$$$0 from "./sections/Swipper.tsx";
 import * as $$$$$$$$1 from "./sections/DesignSystem.tsx";
-import * as $$$$$$$$2 from "./sections/Head.tsx";
-import * as $$$$$$$$3 from "./sections/GetStarted.tsx";
-import * as $$$$$$$$4 from "./sections/Header.tsx";
-import * as $$$$$$$$5 from "./sections/Famosos.tsx";
+import * as $$$$$$$$2 from "./sections/Footer.tsx";
+import * as $$$$$$$$3 from "./sections/Head.tsx";
+import * as $$$$$$$$4 from "./sections/GetStarted.tsx";
+import * as $$$$$$$$5 from "./sections/Header.tsx";
+import * as $$$$$$$$6 from "./sections/Famosos.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -189,10 +190,11 @@ const manifest = {
     "deco-sites/std/sections/SEOPLP.tsx": i2$$$$12,
     "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx": i2$$$$13,
     "deco-sites/testeevolution/sections/DesignSystem.tsx": $$$$$$$$1,
-    "deco-sites/testeevolution/sections/Famosos.tsx": $$$$$$$$5,
-    "deco-sites/testeevolution/sections/GetStarted.tsx": $$$$$$$$3,
-    "deco-sites/testeevolution/sections/Head.tsx": $$$$$$$$2,
-    "deco-sites/testeevolution/sections/Header.tsx": $$$$$$$$4,
+    "deco-sites/testeevolution/sections/Famosos.tsx": $$$$$$$$6,
+    "deco-sites/testeevolution/sections/Footer.tsx": $$$$$$$$2,
+    "deco-sites/testeevolution/sections/GetStarted.tsx": $$$$$$$$4,
+    "deco-sites/testeevolution/sections/Head.tsx": $$$$$$$$3,
+    "deco-sites/testeevolution/sections/Header.tsx": $$$$$$$$5,
     "deco-sites/testeevolution/sections/Swipper.tsx": $$$$$$$$0,
   },
   "loaders": {

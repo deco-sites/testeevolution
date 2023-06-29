@@ -1,6 +1,7 @@
 import Header from "./Header.tsx";
 import Swipper from "./Swipper.tsx";
 import Famosos from "./Famosos.tsx";
+import Footer from "./Footer.tsx";
 
 const menuIcon =
   "https://cdn.icon-icons.com/icons2/2783/PNG/512/menu_burger_icon_177188.png";
@@ -15,6 +16,7 @@ export default function GetStarted({ enableInspectVSCode }: Props) {
       <Header />
       <Swipper />
       <Famosos />
+      <Footer />
     </section>
   );
 }

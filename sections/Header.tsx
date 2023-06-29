@@ -12,7 +12,7 @@ export default function Header({ title }: Props) {
     "https://cdn.icon-icons.com/icons2/2783/PNG/512/menu_burger_icon_177188.png";
 
   return (
-    <header class={"fixed bg-white w-full top-0"}>
+    <header class={"fixed bg-white w-full top-0 z-10"}>
       <div class=" hidden md:flex bg-black px-8 py-2 text-white flex w-full space-x-80">
         <p>
           Olá{" "}

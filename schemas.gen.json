@@ -85,6 +85,7 @@
               "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx",
               "deco-sites/testeevolution/sections/DesignSystem.tsx",
               "deco-sites/testeevolution/sections/Famosos.tsx",
+              "deco-sites/testeevolution/sections/Footer.tsx",
               "deco-sites/testeevolution/sections/GetStarted.tsx",
               "deco-sites/testeevolution/sections/Head.tsx",
               "deco-sites/testeevolution/sections/Header.tsx",
@@ -7752,6 +7753,41 @@
       "required": [],
       "title": "deco-sites/testeevolution/sections/DesignSystem.tsx@Props"
     },
+    "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9GYW1vc29zLnRzeA==@Props": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Title"
+        }
+      },
+      "required": [],
+      "title": "deco-sites/testeevolution/sections/Famosos.tsx@Props"
+    },
+    "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9Gb290ZXIudHN4@Props": {
+      "type": "object",
+      "properties": {
+        "telefone": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Telefone"
+        },
+        "email": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "title": "Email"
+        }
+      },
+      "required": [],
+      "title": "deco-sites/testeevolution/sections/Footer.tsx@Props"
+    },
     "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA==@Props": {
       "type": "object",
       "properties": {
@@ -7807,12 +7843,12 @@
     "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9IZWFkZXIudHN4@Props": {
       "type": "object",
       "properties": {
-        "produtos": {
+        "title": {
           "type": [
             "string",
             "null"
           ],
-          "title": "Produtos"
+          "title": "Title"
         }
       },
       "required": [],
@@ -10133,6 +10169,11 @@
     "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9GYW1vc29zLnRzeA==": {
       "title": "deco-sites/testeevolution/sections/Famosos.tsx",
       "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9GYW1vc29zLnRzeA==@Props"
+        }
+      ],
       "required": [
         "__resolveType"
       ],
@@ -10143,6 +10184,27 @@
             "deco-sites/testeevolution/sections/Famosos.tsx"
           ],
           "default": "deco-sites/testeevolution/sections/Famosos.tsx"
+        }
+      }
+    },
+    "ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9Gb290ZXIudHN4": {
+      "title": "deco-sites/testeevolution/sections/Footer.tsx",
+      "type": "object",
+      "allOf": [
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9Gb290ZXIudHN4@Props"
+        }
+      ],
+      "required": [
+        "__resolveType"
+      ],
+      "properties": {
+        "__resolveType": {
+          "type": "string",
+          "enum": [
+            "deco-sites/testeevolution/sections/Footer.tsx"
+          ],
+          "default": "deco-sites/testeevolution/sections/Footer.tsx"
         }
       }
     },
@@ -11158,6 +11220,9 @@
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9GYW1vc29zLnRzeA=="
+        },
+        {
+          "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9Gb290ZXIudHN4"
         },
         {
           "$ref": "#/definitions/ZGVjby1zaXRlcy90ZXN0ZWV2b2x1dGlvbi9zZWN0aW9ucy9HZXRTdGFydGVkLnRzeA=="
