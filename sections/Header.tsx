@@ -10,7 +10,7 @@ const loginIcon = "https://cdn-icons-png.flaticon.com/512/4519/4519678.png";
 const menuIcon =
   "https://cdn.icon-icons.com/icons2/2783/PNG/512/menu_burger_icon_177188.png";
 
-export function Header({ produtos }: Props) {
+export default function Header({ produtos }: Props) {
   return (
     <header class={"fixed bg-white w-full top-0"}>
       <div class=" hidden md:flex bg-black px-8 py-2 text-white flex w-full space-x-80">
@@ -24,7 +24,7 @@ export function Header({ produtos }: Props) {
       </div>
       <div class=" hidden md:flex justify-around items-center space-x-8 px-10 py-3">
         <img src={logoImg} alt="" width="150px" />
-        <p class="font-bold">suplementos</p>
+        <p class="font-bold">{produtos}</p>
         <input
           class="
                     flex-1 

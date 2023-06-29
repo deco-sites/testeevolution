@@ -5,11 +5,14 @@
 import config from "./deno.json" assert { type: "json" };
 import { DecoManifest } from "$live/types.ts";
 import * as $0 from "./functions/LoadGitHubRaw.ts";
-import * as $$$$0 from "./routes/styles.css.ts";
-import * as $$$$1 from "./routes/_app.tsx";
-import * as $$$$$$$$0 from "./sections/Head.tsx";
+import * as $$$$0 from "./routes/_app.tsx";
+import * as $$$$1 from "./routes/styles.css.ts";
+import * as $$$$$$$$0 from "./sections/Swipper.tsx";
 import * as $$$$$$$$1 from "./sections/DesignSystem.tsx";
-import * as $$$$$$$$2 from "./sections/GetStarted.tsx";
+import * as $$$$$$$$2 from "./sections/Head.tsx";
+import * as $$$$$$$$3 from "./sections/GetStarted.tsx";
+import * as $$$$$$$$4 from "./sections/Header.tsx";
+import * as $$$$$$$$5 from "./sections/Famosos.tsx";
 import * as $live_middleware from "$live/routes/_middleware.ts";
 import * as $live_workbench from "$live/routes/live/workbench.ts";
 import * as $live_invoke from "$live/routes/live/invoke/index.ts";
@@ -125,7 +128,6 @@ import * as i2$$$$$19 from "deco-sites/std/actions/vtex/wishlist/removeItem.ts";
 
 const manifest = {
   "functions": {
-    "deco-sites/testeevolution/functions/LoadGitHubRaw.ts": $0,
     "deco-sites/std/functions/butterCMSAds.ts": i2$0,
     "deco-sites/std/functions/butterCMSBrands.ts": i2$1,
     "deco-sites/std/functions/butterCMSCategories.ts": i2$2,
@@ -153,9 +155,10 @@ const manifest = {
     "deco-sites/std/functions/vtexProductListingPage.ts": i2$24,
     "deco-sites/std/functions/vtexSuggestions.ts": i2$25,
     "deco-sites/std/functions/vtexWishlist.ts": i2$26,
+    "deco-sites/testeevolution/functions/LoadGitHubRaw.ts": $0,
   },
   "routes": {
-    "./routes/_app.tsx": $$$$1,
+    "./routes/_app.tsx": $$$$0,
     "./routes/_middleware.ts": $live_middleware,
     "./routes/[...catchall].tsx": $live_catchall,
     "./routes/index.tsx": $live_catchall,
@@ -168,15 +171,12 @@ const manifest = {
     "./routes/live/previews/index.tsx": $live_previews_index,
     "./routes/live/release.ts": $live_release,
     "./routes/live/workbench.ts": $live_workbench,
-    "./routes/styles.css.ts": $$$$0,
+    "./routes/styles.css.ts": $$$$1,
   },
   "sections": {
     "$live/sections/PageInclude.tsx": i2$$$$0,
     "$live/sections/Slot.tsx": i2$$$$1,
     "$live/sections/UseSlot.tsx": i2$$$$2,
-    "deco-sites/testeevolution/sections/DesignSystem.tsx": $$$$$$$$1,
-    "deco-sites/testeevolution/sections/GetStarted.tsx": $$$$$$$$2,
-    "deco-sites/testeevolution/sections/Head.tsx": $$$$$$$$0,
     "deco-sites/std/sections/Analytics.tsx": i2$$$$3,
     "deco-sites/std/sections/configButterCMS.global.tsx": i2$$$$4,
     "deco-sites/std/sections/configOCC.global.tsx": i2$$$$5,
@@ -188,6 +188,12 @@ const manifest = {
     "deco-sites/std/sections/SEOPDP.tsx": i2$$$$11,
     "deco-sites/std/sections/SEOPLP.tsx": i2$$$$12,
     "deco-sites/std/sections/VTEXPortalDataLayerCompatibility.tsx": i2$$$$13,
+    "deco-sites/testeevolution/sections/DesignSystem.tsx": $$$$$$$$1,
+    "deco-sites/testeevolution/sections/Famosos.tsx": $$$$$$$$5,
+    "deco-sites/testeevolution/sections/GetStarted.tsx": $$$$$$$$3,
+    "deco-sites/testeevolution/sections/Head.tsx": $$$$$$$$2,
+    "deco-sites/testeevolution/sections/Header.tsx": $$$$$$$$4,
+    "deco-sites/testeevolution/sections/Swipper.tsx": $$$$$$$$0,
   },
   "loaders": {
     "$live/loaders/state.ts": i2$$$0,
